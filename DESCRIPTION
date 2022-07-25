@@ -1,5 +1,5 @@
 Package: ussie
-Title: What the Package Does (One Line, Title Case)
+Title: Workign with soccer data
 Version: 0.0.0.9000
 Authors@R: 
     person("JP", "Flores", , "jflores@unc.edu", role = c("aut", "cre"))
