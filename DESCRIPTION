@@ -3,7 +3,9 @@ Title: Working with soccer data
 Version: 0.0.0.9000
 Authors@R: 
     person("JP", "Flores", , "jflores@unc.edu", role = c("aut", "cre"))
-Description: What the package does (one paragraph).
+Description: This is a demo package for the "Building Tidy Tools" workshop at 
+    at rstudio::conf(2022). It allows you to work with European football 
+    league data supplied by the engsoccerdata package (Curley 2016).
 License: MIT + file LICENSE
 Encoding: UTF-8
 Roxygen: list(markdown = TRUE)
