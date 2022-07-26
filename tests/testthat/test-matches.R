@@ -18,4 +18,6 @@ test_that("uss_make_matches works", {
   # when you find a bug, add a test: 👋 from Ian
   expect_s3_class(italy$tier, "factor")
 
+  expect_snapshot(dplyr::glimpse(italy))
+
 })
