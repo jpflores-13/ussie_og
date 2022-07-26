@@ -76,6 +76,7 @@ get_soccer_data <- function(data_name) {
 #' the source data.
 #'
 #' @inherit uss_make_matches params return
+#' @inheritParams dplyr::filter
 #'
 #' @examples
 #' uss_get_matches("england")

@@ -8,6 +8,11 @@ uss_get_matches(country = uss_countries(), ...)
 }
 \arguments{
 \item{country}{\code{character} scalar, specifies the league.}
+
+\item{...}{<\code{\link[dplyr:dplyr_data_masking]{data-masking}}> Expressions that return a
+logical value, and are defined in terms of the variables in \code{.data}.
+If multiple expressions are included, they are combined with the \code{&} operator.
+Only rows for which all conditions evaluate to \code{TRUE} are kept.}
 }
 \value{
 a tibble with columns \code{country}, \code{date}, \code{season}, \code{tier}, \code{home},
