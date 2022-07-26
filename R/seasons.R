@@ -16,7 +16,7 @@ seasons_intermediate <- function(data_teams_matches, fn_points_per_win) {
   # 2.4.1 Misc. (as_function())
   #
   # 1. accept purrr-style anonymus functions
-
+  fn_points_per_win = rlang::as_function(fnfn_points_per_win)
   result <-
     data_teams_matches |>
     # across() lets you use tidy-select semantics inside data-masking functions

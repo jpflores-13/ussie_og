@@ -50,7 +50,7 @@ uss_plot_seasons_tiers <- function(data_seasons, aes_y = .data$wins, ncol = 1) {
         x = .data$season,
         y = {{ aes_y }},
       ),
-      color = "#333333"
+      color = "#111111"
     ) +
     # we want to show only the tiers that appear in the data
     # force() is a base function
