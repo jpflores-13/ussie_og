@@ -65,6 +65,13 @@ a tibble in a standardised format.</p>
     <dl><dt>country</dt>
 <dd><p><code>character</code> scalar, specifies the league.</p></dd>
 
+
+<dt>...</dt>
+<dd><p>&lt;<code><a href="https://dplyr.tidyverse.org/reference/dplyr_data_masking.html" class="external-link">data-masking</a></code>&gt; Expressions that return a
+logical value, and are defined in terms of the variables in <code>.data</code>.
+If multiple expressions are included, they are combined with the <code>&amp;</code> operator.
+Only rows for which all conditions evaluate to <code>TRUE</code> are kept.</p></dd>
+
 </dl></div>
     <div class="section level2">
     <h2 id="value">Value<a class="anchor" aria-label="anchor" href="#value"></a></h2>
